@@ -1,0 +1,96 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body {
+        background-image: url('images/picture.jpg');
+        background-size: contain;
+        background-position: center;
+        font-family: 'Lucida Sans', Tahoma, Geneva, Verdana, sans-serif;
+        height: 100%;
+        margin: 0;
+        
+}
+ img {
+        width: 600px;
+        height: 650px;
+ }
+
+
+.container {
+        display: flex;
+}
+
+.image-container {
+        padding-top: 3%;
+        padding-left: 2%;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.image-container img {
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.content-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+h2 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        color: rgb(86, 42, 86);
+}
+
+h4 {
+        text-align: center;
+        font-size: 30px;
+}
+
+.countdown {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+
+.box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        margin-right: 10px;
+        border-radius: 20%;
+}
+
+.countdown #countdown_text {
+        display: flex;
+        flex-wrap: wrap;
+        color: red;
+}
+.value {
+        font-size: 24px;
+}
+
+.label {
+        font-size: 12px;
+        text-transform: uppercase;
+}
+
+.deadline {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+}
